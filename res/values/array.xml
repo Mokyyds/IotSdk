@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 服务器msg字段 -->
+    <string-array name="error_msg_code">
+        <item>BAD REQUEST</item>
+        <item>UNAUTHORIZED</item>
+        <item>FORBIDDEN</item>
+        <item>NOT FOUND</item>
+        <item>GONE</item>
+        <item>INTERNAL SERVER ERROR</item>
+        <item>SESSION_KEY_INVALID</item>
+        <item>API_PARAMETER_EMPTY</item>
+        <item>API_PARAMETER_INVALID</item>
+        <item>API_PARAMETER_SIGN_INVALID</item>
+        <item>NOT_FOUND</item>
+        <item>API_SIGN_INVALID</item>
+        <item>NO_NECTWORK</item>
+        <item>SHORT_PASSWORD</item>
+        <item>ID_PASSWORD_NOT_MATCH</item>
+        <item>INVALID_ID</item>
+        <item>PARAMETER_INVALID_EMAIL</item>
+        <item>FAMILY_MEMBER_EXIST</item>
+        <item>FAMILY_ROLE_EXIST</item>
+        <item>FAMILY_CONFLICT</item>
+        <item>FAILED</item>
+        <item>PARAMETER_SHORT_NAME</item>
+        <item>FILE_UPLOAD_ERROR</item>
+        <item>PARAMETER_INVALID_ROLE</item>
+        <item>OLD_PASSWORD_WRONG</item>
+        <item>PARAMETER_INVALID</item>
+        <item>ID_EXIST</item>
+        <item> FAILED</item>     
+        <item>SUCCESS</item>    
+       <item> INVALID_ID</item>     
+       <item>INVALID_PASSWORD</item>
+       <item>INVALID_COUNTRY_CODE</item>   
+       <item> INVALID_UID</item>
+      <item> INVALID_VERIFY_CODE</item>     
+      <item> ERR_VERIFY_CODE</item>     
+      <item> ERR_ID_PWD_NOT_MATCH</item>     
+      <item> ERR_ID_NOT_VERIFY </item>     
+      <item> ERR_ID_ALREADY_EXISTS</item>     
+      <item> ERR_ID_NOT_EXISTS</item>    
+      <item> ERR_ID_ALREADY_ACTIVATED</item> 
+        
+    </string-array>
+
+    <!-- msg 字段code对应说明 error_msg -->
+    <string-array name="error_msg">
+        <item>请求的地址不存在或者包含不支持的参数</item>
+        <item>未授权</item>
+        <item>您无权限进行此操作</item>
+        <item>请求的资源不存在</item>
+        <item>客户端需要擦除用户的所有应用数据</item>
+        <item>内部错误</item>
+        <item>需要用户登陆</item>
+        <item>必要系统参数为空</item>
+        <item>参数非法</item>
+        <item>签名无效</item>
+        <item>资源未找到</item>
+        <item>api_sign_invalid</item>
+        <item>无网络，请检查网络连接是否正确</item>
+        <item>密码太短</item>
+        <item>用户名和者密码不匹配</item>
+        <item>请输入正确的Email</item>
+        <item>请输入正确的Email地址</item>
+        <item>家庭已有该用户，请重新登陆应用</item>
+        <item>家庭已有该角色，请重新登陆应用</item>
+        <item>请和对方用户确认家庭设置后再试</item>
+        <item>失败</item>
+        <item>您输入的姓名太短</item>
+        <item>头像上传失败，请重试</item>
+        <item>您没有权限添加宝宝</item>
+        <item>您输入的旧密码错误, 请重新输入</item>
+        <item>密码应为616位字符</item>
+        <item>账号已存在，请重新输入</item>
+        <item>网络超时，信息提交失败 </item>    
+        <item>本次请求服务端处理成功     </item>
+        <item>帐号格式有误，请重新输入。</item>
+        <item>帐号、密码不匹配，请确认后重新输入。</item>
+        <item>无效的国家码。</item>
+        <item>帐号不存在，请重新输入。</item>
+        <item>验证码错误，请确认后重新输入。或重新获取。</item>
+        <item>验证码错误，请确认后重新输入。或重新获取。</item>
+        <item> 帐号、密码不匹配，请确认后重新输入</item>
+        <item> 当前账号未激活，暂时无法正常登陆 </item>
+        <item>该账号已经存在</item>
+        <item> 该账号不存在  </item>
+        <item>该账号已经激活 </item>
+        
+    </string-array>
+    <string-array name="family_members">
+        <item>妈妈</item>
+        <item>爸爸</item>
+        <item>奶奶</item>
+        <item>爷爷</item>
+        <item>外婆</item>
+        <item>外公</item>
+        <item>宝宝</item>
+    </string-array>
+    <string-array name="member_blood">
+        <item>O型</item>
+        <item>保密</item>
+        <item>AB型</item>
+        <item>B型</item>
+        <item>A型</item>
+    </string-array>
+
+</resources>
